@@ -1,7 +1,3 @@
-/* ================================
-   Calm Finance — Nature Theme
-   ================================ */
-
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #edf4ef, #e8f0ed);
@@ -11,7 +7,7 @@ body {
 }
 
 
-/* Main Container */
+/*Main Container*/
 .container {
     max-width: 800px;
     margin: 50px auto;
@@ -23,7 +19,7 @@ body {
 }
 
 
-/* Heading */
+/*Heading*/
 h1 {
     text-align: center;
     margin-bottom: 25px;
@@ -33,7 +29,7 @@ h1 {
 }
 
 
-/* Form */
+/*Form*/
 form {
     display: flex;
     gap: 12px;
@@ -42,7 +38,7 @@ form {
     box-sizing: border-box;
 }
 
-/* Form fields */
+/*Form fields*/
 form input,
 form select {
     flex: 1;
@@ -58,7 +54,7 @@ form select {
     outline: none;
 }
 
-/* Add Expense Button */
+/*Add Expense Button*/
 form button {
     flex: 0 0 140px;
     width: 140px;
@@ -75,7 +71,7 @@ form button {
 }
 
 
-/* Inputs and Select */
+/*Inputs and Select*/
 form input,
 form select,
 form button {
@@ -87,7 +83,7 @@ form button {
 }
 
 
-/* Input Fields */
+/*Input Fields*/
 form input,
 form select {
     background-color: #f7faf6;
@@ -97,7 +93,7 @@ form select {
 }
 
 
-/* Input Focus */
+/*Input Focus*/
 form input:focus,
 form select:focus {
     border-color: #6f9f87;
@@ -106,7 +102,7 @@ form select:focus {
 }
 
 
-/* Add Expense Button */
+/*Add Expense Button*/
 form button {
     background-color: #477a61;
     color: #ffffff;
@@ -117,7 +113,7 @@ form button {
 }
 
 
-/* Button Hover */
+/*Button Hover*/
 form button:hover {
     background-color: #39674f;
     transform: translateY(-1px);
@@ -125,7 +121,7 @@ form button:hover {
 }
 
 
-/* Expense Table */
+/*Expense Table*/
 .expense-table table {
     width: 100%;
     border-collapse: separate;
@@ -137,7 +133,7 @@ form button:hover {
 }
 
 
-/* Table Cells */
+/*Table Cells*/
 .expense-table th,
 .expense-table td {
     padding: 13px;
@@ -146,7 +142,7 @@ form button:hover {
 }
 
 
-/* Table Header */
+/*Table Header*/
 .expense-table th {
     background-color: #e5efe8;
     color: #315c49;
@@ -154,26 +150,26 @@ form button:hover {
 }
 
 
-/* Table Body */
+/*Table Body*/
 .expense-table td {
     background-color: #fbfcfa;
     color: #42554c;
 }
 
 
-/* Remove last row border */
+/*Remove last row border*/
 .expense-table tr:last-child td {
     border-bottom: none;
 }
 
 
-/* Subtle row hover */
+/*Subtle row hover*/
 .expense-table tbody tr:hover td {
     background-color: #f1f7f3;
 }
 
 
-/* Total Amount */
+/*Total Amount*/
 .total-amount {
     text-align: right;
     font-size: 18px;
@@ -182,13 +178,13 @@ form button:hover {
 }
 
 
-/* Highlight the total */
+/*Highlight the total*/
 .total-amount strong {
     color: #356b55;
 }
 
 
-/* Filter Section */
+/*Filter Section*/
 .filter {
     margin-bottom: 20px;
     text-align: right;
@@ -196,13 +192,13 @@ form button:hover {
 }
 
 
-/* Filter Label */
+/*Filter Label*/
 .filter label {
     margin-right: 10px;
 }
 
 
-/* Filter Select */
+/*Filter Select*/
 .filter select {
     padding: 10px 14px;
     border: 1px solid #cbdcd1;
@@ -215,45 +211,41 @@ form button:hover {
 }
 
 
-/* Filter Focus */
+/*Filter Focus*/
 .filter select:focus {
     border-color: #6f9f87;
     box-shadow: 0 0 0 3px rgba(111, 159, 135, 0.14);
 }
 
 
-/* Filter Hover */
+/*Filter Hover*/
 .filter select:hover {
     background-color: #eef5f0;
 }
 
 
-/* ================================
-   Soft Financial Accent
-   ================================ */
+/*Financial data table*/
 
-/* Amount column */
+/*Amount column*/
 .expense-table td:nth-child(2) {
     color: #496b5a;
     font-weight: 500;
 }
 
 
-/* Date column */
+/*Date column*/
 .expense-table td:nth-child(4) {
     color: #687a72;
 }
 
 
-/* Action column */
+/*Action column*/
 .expense-table td:last-child {
     color: #527564;
 }
 
 
-/* ================================
-   Calendar / Date Input
-   ================================ */
+/* Calendar / Date Input */
 
 input[type="date"] {
     color: #53675d;
@@ -261,9 +253,7 @@ input[type="date"] {
 }
 
 
-/* ================================
-   Responsive Design
-   ================================ */
+/*Responsive Design*/
 
 @media (max-width: 800px) {
 
